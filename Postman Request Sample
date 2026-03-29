@@ -1,0 +1,6 @@
+postman request POST 'http://localhost:8080/api/ingest/turnstile' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "locationId": 1,
+  "eventType": "entry"
+}'

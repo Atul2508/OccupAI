@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #111827;
+}
+```
+
+---
+
+## Folder Structure To Create
+```
+src/
+├── components/
+│   ├── OccupancyCard.jsx
+│   ├── PredictionChart.jsx
+│   └── AlertBanner.jsx
+├── pages/
+│   └── Dashboard.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+└── index.css
